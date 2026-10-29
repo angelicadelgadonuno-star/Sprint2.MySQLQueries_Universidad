@@ -10,7 +10,7 @@ SELECT id, nombre, apellido1, apellido2 FROM persona WHERE tipo = 'alumno' AND f
 SELECT id, nombre, apellido1, apellido2 FROM persona WHERE YEAR (fecha_nacimiento) = 1999 AND tipo = 'alumno';
 
 -- 5. Retorna el llistat de les assignatures que s'imparteixen en el primer quadrimestre, en el tercer curs del grau que té l'identificador 7. (id, nombre, cuatrimestre, curso, id_grado)
-
+SELECT nombre, apellido1, apellido2 FROM persona WHERE nif LIKE '%k' AND tipo = 'profesor';
 
 -- 6. Retorna un llistat dels professors/es juntament amb el nom del departament al qual estan vinculats. El llistat ha de retornar quatre columnes, primer cognom, segon cognom, nom i nom del departament. El resultat estarà ordenat alfabèticament de menor a major pels cognoms i el nom. (apellido1, apellido2, nombre, departamento)
 
