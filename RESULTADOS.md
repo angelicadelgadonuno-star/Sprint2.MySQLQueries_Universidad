@@ -2,18 +2,18 @@
 
 
 ## 📈 Resumen
-✅ 2 correctas de 5 queries
+✅ 2 correctas de 6 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.38 ms
+⏱ Tiempo: 0.30 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.26 ms
+⏱ Tiempo: 0.16 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -29,7 +29,7 @@
 +id | nombre | apellido1 | apellido2
 ```
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.13 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -47,11 +47,33 @@
 +22.00 | Antonio | Domínguez | Guerrero
 ```
 
-⏱ Tiempo: 0.25 ms
+⏱ Tiempo: 0.12 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
-## ❌ Query 5: Error
+## ❌ Query 5: Incorrecto
+```diff
+--- 
++++ 
+@@ -1,7 +1,3 @@
+-id | nombre | cuatrimestre | curso | id_grado
+-72.00 | Bases moleculares del desarrollo vegetal | 1.00 | 3.00 | 7.00
+-73.00 | Fisiología animal | 1.00 | 3.00 | 7.00
+-74.00 | Metabolismo y biosíntesis de biomoléculas | 1.00 | 3.00 | 7.00
+-75.00 | Operaciones de separación | 1.00 | 3.00 | 7.00
+-76.00 | Patología molecular de plantas | 1.00 | 3.00 | 7.00
+-77.00 | Técnicas instrumentales básicas | 1.00 | 3.00 | 7.00
++nombre | apellido1 | apellido2
++Antonio | Fahey | Considine
++Guillermo | Ruecker | Upton
+```
+
+⏱ Tiempo: 0.14 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
+
+## ❌ Query 6: Error
 - **Descripción**: 'NoneType' object is not iterable
 
