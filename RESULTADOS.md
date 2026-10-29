@@ -2,7 +2,7 @@
 
 
 ## 📈 Resumen
-✅ 2 correctas de 4 queries
+✅ 2 correctas de 5 queries
 
 ## ✅ Query 1: Correcto
 
@@ -13,7 +13,7 @@
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.30 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -29,11 +29,29 @@
 +id | nombre | apellido1 | apellido2
 ```
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
-## ❌ Query 4: Error
+## ❌ Query 4: Incorrecto
+```diff
+--- 
++++ 
+@@ -1,3 +1,3 @@
+-nombre | apellido1 | apellido2 | nif
+-Antonio | Fahey | Considine | 10485008K
+-Guillermo | Ruecker | Upton | 85869555K
++id | nombre | apellido1 | apellido2
++7.00 | Ismael | Strosin | Turcotte
++22.00 | Antonio | Domínguez | Guerrero
+```
+
+⏱ Tiempo: 0.25 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
+
+## ❌ Query 5: Error
 - **Descripción**: 'NoneType' object is not iterable
 
