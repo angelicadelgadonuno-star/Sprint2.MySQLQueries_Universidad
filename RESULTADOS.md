@@ -2,131 +2,131 @@
 
 
 ## 📈 Resumen
-✅ 24 correctas de 26 queries
+✅ 25 correctas de 26 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.38 ms
+⏱ Tiempo: 0.33 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.20 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.32 ms
+⏱ Tiempo: 0.21 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 4: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.19 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 5: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.22 ms
 ✅ Se usó índice(s) en la consulta: id_grado
 
 ---
 
 ## ✅ Query 6: Correcto
 
-⏱ Tiempo: 0.33 ms
-✅ Se usó índice(s) en la consulta: PRIMARY, PRIMARY,id_departamento
+⏱ Tiempo: 0.26 ms
+✅ Se usó índice(s) en la consulta: PRIMARY,id_departamento, PRIMARY
 
 ---
 
 ## ✅ Query 7: Correcto
 
-⏱ Tiempo: 0.49 ms
-✅ Se usó índice(s) en la consulta: PRIMARY,id_asignatura,id_curso_escolar, PRIMARY, PRIMARY,nif
+⏱ Tiempo: 0.41 ms
+✅ Se usó índice(s) en la consulta: PRIMARY, PRIMARY,id_asignatura,id_curso_escolar, PRIMARY,nif
 
 ---
 
 ## ✅ Query 8: Correcto
 
-⏱ Tiempo: 0.39 ms
-✅ Se usó índice(s) en la consulta: PRIMARY, id_profesor,id_grado, PRIMARY,id_departamento
+⏱ Tiempo: 0.27 ms
+✅ Se usó índice(s) en la consulta: id_profesor,id_grado, PRIMARY,id_departamento, PRIMARY
 
 ---
 
 ## ✅ Query 9: Correcto
 
-⏱ Tiempo: 0.36 ms
-✅ Se usó índice(s) en la consulta: PRIMARY, PRIMARY,id_curso_escolar
+⏱ Tiempo: 0.23 ms
+✅ Se usó índice(s) en la consulta: PRIMARY,id_curso_escolar, PRIMARY
 
 ---
 
 ## ✅ Query 10: Correcto
 
-⏱ Tiempo: 0.38 ms
+⏱ Tiempo: 0.26 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY
 
 ---
 
 ## ✅ Query 11: Correcto
 
-⏱ Tiempo: 0.30 ms
+⏱ Tiempo: 0.24 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY
 
 ---
 
 ## ✅ Query 12: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.19 ms
 ✅ Se usó índice(s) en la consulta: id_departamento
 
 ---
 
 ## ✅ Query 13: Correcto
 
-⏱ Tiempo: 0.31 ms
-✅ Se usó índice(s) en la consulta: PRIMARY, id_profesor
+⏱ Tiempo: 0.24 ms
+✅ Se usó índice(s) en la consulta: id_profesor, PRIMARY
 
 ---
 
 ## ✅ Query 14: Correcto
 
-⏱ Tiempo: 0.31 ms
-✅ Se usó índice(s) en la consulta: PRIMARY, id_profesor
+⏱ Tiempo: 0.21 ms
+✅ Se usó índice(s) en la consulta: id_profesor, PRIMARY
 
 ---
 
 ## ✅ Query 15: Correcto
 
-⏱ Tiempo: 0.32 ms
-✅ Se usó índice(s) en la consulta: id_departamento, id_asignatura, PRIMARY, id_profesor
+⏱ Tiempo: 0.24 ms
+✅ Se usó índice(s) en la consulta: id_profesor, id_asignatura, PRIMARY, id_departamento
 
 ---
 
 ## ✅ Query 16: Correcto
 
-⏱ Tiempo: 0.26 ms
+⏱ Tiempo: 0.18 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 17: Correcto
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.21 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 18: Correcto
 
-⏱ Tiempo: 0.30 ms
-✅ Se usó índice(s) en la consulta: id_departamento, PRIMARY
+⏱ Tiempo: 0.21 ms
+✅ Se usó índice(s) en la consulta: PRIMARY, id_departamento
 
 ---
 
@@ -149,65 +149,49 @@
  Biología y Geología | 0.00
 ```
 
-⏱ Tiempo: 0.30 ms
+⏱ Tiempo: 0.23 ms
 ✅ Se usó índice(s) en la consulta: id_departamento
 
 ---
 
 ## ✅ Query 20: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.21 ms
 ✅ Se usó índice(s) en la consulta: id_grado
 
 ---
 
 ## ✅ Query 21: Correcto
 
-⏱ Tiempo: 0.36 ms
+⏱ Tiempo: 0.23 ms
 ✅ Se usó índice(s) en la consulta: id_grado
 
 ---
 
-## ❌ Query 22: Incorrecto
-```diff
---- 
-+++ 
-@@ -4,3 +4,11 @@
- Grado en Ingeniería Informática (Plan 2015) | optativa | 180.00
- Grado en Biotecnología (Plan 2015) | básica | 60.00
- Grado en Biotecnología (Plan 2015) | obligatoria | 120.00
-+Grado en Ingeniería Agrícola (Plan 2015) | NULL | NULL
-+Grado en Ingeniería Eléctrica (Plan 2014) | NULL | NULL
-+Grado en Ingeniería Electrónica Industrial (Plan 2010) | NULL | NULL
-+Grado en Ingeniería Mecánica (Plan 2010) | NULL | NULL
-+Grado en Ingeniería Química Industrial (Plan 2010) | NULL | NULL
-+Grado en Ciencias Ambientales (Plan 2009) | NULL | NULL
-+Grado en Matemáticas (Plan 2010) | NULL | NULL
-+Grado en Química (Plan 2009) | NULL | NULL
-```
+## ✅ Query 22: Correcto
 
-⏱ Tiempo: 0.36 ms
-✅ Se usó índice(s) en la consulta: id_grado
+⏱ Tiempo: 0.25 ms
+✅ Se usó índice(s) en la consulta: PRIMARY, id_grado
 
 ---
 
 ## ✅ Query 23: Correcto
 
-⏱ Tiempo: 0.34 ms
-✅ Se usó índice(s) en la consulta: PRIMARY, id_curso_escolar
+⏱ Tiempo: 0.23 ms
+✅ Se usó índice(s) en la consulta: id_curso_escolar, PRIMARY
 
 ---
 
 ## ✅ Query 24: Correcto
 
-⏱ Tiempo: 0.34 ms
-✅ Se usó índice(s) en la consulta: PRIMARY, id_profesor
+⏱ Tiempo: 0.25 ms
+✅ Se usó índice(s) en la consulta: id_profesor, PRIMARY
 
 ---
 
 ## ✅ Query 25: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.21 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -217,7 +201,7 @@
 
 ## ✅ Query 26: Correcto
 
-⏱ Tiempo: 0.37 ms
-✅ Se usó índice(s) en la consulta: PRIMARY, id_profesor, PRIMARY,id_departamento
+⏱ Tiempo: 0.22 ms
+✅ Se usó índice(s) en la consulta: id_profesor, PRIMARY,id_departamento, PRIMARY
 
 ---
