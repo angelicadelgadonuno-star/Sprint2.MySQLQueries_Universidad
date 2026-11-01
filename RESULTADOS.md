@@ -2,130 +2,130 @@
 
 
 ## 📈 Resumen
-✅ 23 correctas de 26 queries
+✅ 24 correctas de 26 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.24 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.19 ms
+⏱ Tiempo: 0.11 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.15 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 4: Correcto
 
-⏱ Tiempo: 0.19 ms
+⏱ Tiempo: 0.17 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 5: Correcto
 
-⏱ Tiempo: 0.24 ms
+⏱ Tiempo: 0.18 ms
 ✅ Se usó índice(s) en la consulta: id_grado
 
 ---
 
 ## ✅ Query 6: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.21 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, PRIMARY,id_departamento
 
 ---
 
 ## ✅ Query 7: Correcto
 
-⏱ Tiempo: 0.41 ms
-✅ Se usó índice(s) en la consulta: PRIMARY,id_asignatura,id_curso_escolar, PRIMARY,nif, PRIMARY
+⏱ Tiempo: 0.31 ms
+✅ Se usó índice(s) en la consulta: PRIMARY,id_asignatura,id_curso_escolar, PRIMARY, PRIMARY,nif
 
 ---
 
 ## ✅ Query 8: Correcto
 
-⏱ Tiempo: 0.26 ms
-✅ Se usó índice(s) en la consulta: id_profesor,id_grado, PRIMARY, PRIMARY,id_departamento
+⏱ Tiempo: 0.21 ms
+✅ Se usó índice(s) en la consulta: PRIMARY, id_profesor,id_grado, PRIMARY,id_departamento
 
 ---
 
 ## ✅ Query 9: Correcto
 
-⏱ Tiempo: 0.25 ms
+⏱ Tiempo: 0.20 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, PRIMARY,id_curso_escolar
 
 ---
 
 ## ✅ Query 10: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.20 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY
 
 ---
 
 ## ✅ Query 11: Correcto
 
-⏱ Tiempo: 0.21 ms
+⏱ Tiempo: 0.15 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY
 
 ---
 
 ## ✅ Query 12: Correcto
 
-⏱ Tiempo: 0.21 ms
+⏱ Tiempo: 0.14 ms
 ✅ Se usó índice(s) en la consulta: id_departamento
 
 ---
 
 ## ✅ Query 13: Correcto
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.16 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, id_profesor
 
 ---
 
 ## ✅ Query 14: Correcto
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.16 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, id_profesor
 
 ---
 
 ## ✅ Query 15: Correcto
 
-⏱ Tiempo: 0.24 ms
-✅ Se usó índice(s) en la consulta: PRIMARY, id_asignatura, id_departamento, id_profesor
+⏱ Tiempo: 0.18 ms
+✅ Se usó índice(s) en la consulta: id_departamento, PRIMARY, id_asignatura, id_profesor
 
 ---
 
 ## ✅ Query 16: Correcto
 
-⏱ Tiempo: 0.18 ms
+⏱ Tiempo: 0.12 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 17: Correcto
 
-⏱ Tiempo: 0.18 ms
+⏱ Tiempo: 0.13 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 18: Correcto
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.16 ms
 ✅ Se usó índice(s) en la consulta: id_departamento, PRIMARY
 
 ---
@@ -149,31 +149,21 @@
  Biología y Geología | 0.00
 ```
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.20 ms
 ✅ Se usó índice(s) en la consulta: id_departamento
 
 ---
 
-## ❌ Query 20: Incorrecto
-```diff
---- 
-+++ 
-@@ -1,4 +1,4 @@
--grau | total
-+grado | total
- Grado en Ingeniería Informática (Plan 2015) | 51.00
- Grado en Biotecnología (Plan 2015) | 32.00
- Grado en Ingeniería Agrícola (Plan 2015) | 0.00
-```
+## ✅ Query 20: Correcto
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.17 ms
 ✅ Se usó índice(s) en la consulta: id_grado
 
 ---
 
 ## ✅ Query 21: Correcto
 
-⏱ Tiempo: 0.24 ms
+⏱ Tiempo: 0.18 ms
 ✅ Se usó índice(s) en la consulta: id_grado
 
 ---
@@ -202,28 +192,28 @@
 +Grado en Química (Plan 2009) | NULL | NULL
 ```
 
-⏱ Tiempo: 0.25 ms
+⏱ Tiempo: 0.20 ms
 ✅ Se usó índice(s) en la consulta: id_grado
 
 ---
 
 ## ✅ Query 23: Correcto
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.19 ms
 ✅ Se usó índice(s) en la consulta: id_curso_escolar, PRIMARY
 
 ---
 
 ## ✅ Query 24: Correcto
 
-⏱ Tiempo: 0.26 ms
+⏱ Tiempo: 0.19 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, id_profesor
 
 ---
 
 ## ✅ Query 25: Correcto
 
-⏱ Tiempo: 0.20 ms
+⏱ Tiempo: 0.17 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -233,7 +223,7 @@
 
 ## ✅ Query 26: Correcto
 
-⏱ Tiempo: 0.25 ms
+⏱ Tiempo: 0.17 ms
 ✅ Se usó índice(s) en la consulta: PRIMARY, PRIMARY,id_departamento, id_profesor
 
 ---
