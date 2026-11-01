@@ -107,7 +107,6 @@ COUNT(pr.id_profesor) AS total
 FROM departamento d
 LEFT JOIN profesor pr ON pr.id_departamento = d.id 
 GROUP BY d.id, d.nombre
-ORDER BY COUNT(pr.id_profesor) DESC, d.id ASC;
 
 -- 20. Retorna un llistat amb el nom de tots els graus existents en la base de dades i el nombre d'assignatures que té cadascun. Tingues en compte que poden existir graus que no tenen assignatures associades. Aquests graus també han d'aparèixer en el llistat. El resultat haurà d'estar ordenat de major a menor pel nombre d'assignatures. (grau, total)
 SELECT g.nombre AS grau,
