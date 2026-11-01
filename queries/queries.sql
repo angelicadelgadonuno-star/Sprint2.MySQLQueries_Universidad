@@ -118,7 +118,7 @@ GROUP BY g.id, g.nombre
 ORDER BY total DESC;
 
 -- 21. Retorna un llistat amb el nom de tots els graus existents en la base de dades i el nombre d'assignatures que té cadascun, dels graus que tinguin més de 40 assignatures associades. (grau, total)
-SELECT g.nombre AS grado, COUNT(a.id) AS total
+SELECT g.nombre AS grau, COUNT(a.id) AS total
 FROM grado g
 LEFT JOIN asignatura a ON a.id_grado = g.id
 GROUP BY g.id, g.nombre
@@ -126,7 +126,7 @@ HAVING COUNT(a.id) > 40
 ORDER BY total DESC;
 
 -- 22. Retorna un llistat que mostri el nom dels graus i la suma del nombre total de crèdits que hi ha per a cada tipus d'assignatura. El resultat ha de tenir tres columnes: nom del grau, tipus d'assignatura i la suma dels crèdits de totes les assignatures que hi ha d'aquest tipus. (grau, tipus, total_creditos)
-SELECT g.nombre AS grado, a.tipo AS tipus, SUM(a.creditos) AS total_creditos
+SELECT g.nombre AS grau, a.tipo AS tipus, SUM(a.creditos) AS total_creditos
 FROM grado g
 LEFT JOIN asignatura a ON a.id_grado = g.id
 GROUP BY g.id, g.nombre, a.tipo
